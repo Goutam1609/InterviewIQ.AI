@@ -10,6 +10,14 @@ import paymentRouter from "./routes/payment.route.js"
 dotenv.config()
 
 const app = express()
+
+app.get("/test", (req, res) => {
+    res.json({
+        message: "Backend is running",
+        authRouterLoaded: true
+    })
+})
+
 app.use(cors({
     origin:"https://interviewiq-ai-client-1jhq.onrender.com",
     credentials:true

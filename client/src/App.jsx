@@ -11,7 +11,7 @@ import InterviewHistory from './pages/InterviewHistory.jsx'
 import Pricing from './pages/Pricing.jsx'
 import InterviewReport from './pages/InterviewReport.jsx'
 
-export const serverUrl = "https://render.com/docs/node-version"
+export const serverUrl = "https://interviewiq-ai-hf7z.onrender.com/"
 
 function App() {
 
